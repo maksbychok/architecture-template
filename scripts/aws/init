@@ -1,0 +1,4 @@
+#!/bin/bash
+cp ecosystem.config.example.js ecosystem.config.js
+cp .env.example .env
+touch max

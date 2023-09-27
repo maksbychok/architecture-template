@@ -1,0 +1,11 @@
+#!/bin/bash
+red=`tput setaf 1`
+reset=`tput sgr0`
+
+sudo mv ./scripts/config/api.conf /etc/nginx/conf.d/api.conf
+sudo nginx -v
+sudo service nginx restart
+sudo service nginx status
+cp ecosystem.config.example.js ecosystem.config.js
+cp .env.example .env
+echo "${red}Init finished. Please set env variables. File .env ${reset}"

@@ -1,0 +1,10 @@
+#!/bin/bash
+INSTALL_NODE_SCRIPT="./scripts/nodeup"
+INSTALL_NGINX_SCRIPT="./scripts/nginxup"
+INSTALL_GIT_SCRIPT="./scripts/gitup"
+
+sudo yum update
+bash $INSTALL_NODE_SCRIPT
+bash $INSTALL_NGINX_SCRIPT
+bash $INSTALL_GIT_SCRIPT
+
