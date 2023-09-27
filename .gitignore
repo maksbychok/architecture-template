@@ -1,0 +1,12 @@
+/logs
+/node_modules
+/data
+/.data
+/out
+/.env
+docker-compose.yml
+/package-lock.json
+/pm2-logs
+./nginx.conf
+/src/app/uploads
+ecosystem.config.js 
