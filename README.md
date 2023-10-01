@@ -57,7 +57,7 @@ If we talk about dependency and architecture we need to reverse dependecy to Dom
 This serves as the primary entry point where all logic originates. It initiates an instance of the Server class, which, in turn, creates a new Express app. 
 This class retrieves top-level modules, such as the API module, and initializes all root-level middlewares.
 
-#### <MODULE>/*
+#### {MODULE}/*
 This represents a module, such as a api module, which is a fundamental building block of our routing structure.
 These modules can be interconnected, forming a hierarchical structure. For instance, you can create a nested hierarchy of modules, allowing for a flexible and organized approach to routing
   /api
@@ -123,7 +123,7 @@ Method example
   }
 ```
 
-### LIBS/*
+### libs/{LIB}/*
 
 We utilize two types of services: Application services (consumed by the application) and utility services (dealing with arrays, files, etc.). Application services are particularly crucial to us.
 
